@@ -1,0 +1,303 @@
+
+body{
+	font-family: 'Chelsea Market', cursive;
+	background: #ebed7b;
+}
+
+/*****************
+
+	Навигация/NAV/LOGO
+
+******************/
+.nav-wrapper{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background: #000;
+	
+}
+
+.logo{
+	font-size: 25px;
+	font-weight: 800;
+	color: #fcc047;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,-1px 1px 0 #000, 1px 1px 0 #000, 3px 3px 0 #e3d386, 4px 4px 0 #e3d386, 5px 5px 0 #e3d386;/*3д эфект текста*/
+}
+
+.navigation{
+	font-size: 15px; /*размер ширифта*/
+	font-weight: 600;
+	padding-top: 30px;/*отступ от веха меню */
+	padding-left: 400px;
+}
+
+.navigation__link{
+	color: #fcf6d4;
+	text-decoration: none; /*уберание подчеркивание текста*/
+	margin-right: 20px; /*отступ между собой*/
+
+}
+
+.navigation__link:last-child{
+	margin-right: 0px;
+
+}
+
+.navigation__link:hover, .navigation__link:active, .navigation__link:focus{ /*при наведение на ссылки*/
+	color: #de072e;
+	text-decoration: none; /*уберание подчеркивание текста*/
+}
+
+
+/*.cart{
+	padding-top: 5px;
+	color: #000;
+}
+
+.cart__number{
+	width: 19px;
+	height: 19px;
+	background-color: #FA8072;
+
+	border-radius: 10px; 
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 1px;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*****************
+
+	DECOR
+
+******************/
+
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #f69a73;
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {top: -20px;}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+.form-inner {padding: 50px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************
+	FOOTER
+******************/
+
+.footer{
+	background-color: #000;
+	padding: 20px 0 25px;
+	text-align: center;
+	bottom: 0;
+	
+
+}
+
+.footer-nav{
+	margin-bottom: 20px;
+
+}	
+
+.footer-nav__link{
+	font-size: 13px;
+	line-height: 1.5;
+	color: #fff;
+	margin-right: 35px;
+
+}
+
+.footer-nav__link:last-child{
+	margin-right: 0px;
+}
+
+.footer-nav__link:hover{
+	color: #db0f68;
+	text-decoration: none;
+}
+
+.footer__social{
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+.footer__social a{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+.footer__social a:last-child{
+	margin-right: 0px;
+
+}
+
+.footer__social a:hover, .footer__social a:active, .footer__social a:focus{
+	color: #6fbcf2;
+	text-decoration: none;
+}
+
+.footer__copyright{
+	color: #d4bec8;
+	font-size: 12px;
+
+}
+
+
+/*****************
+	связь
+******************/
+
+
+
+.nesolestag-enadenud {
+  width: 100%;
+  
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  margin: 0px 20px 5px 5px;
+  display: block;
+  font-size: 25px; 
+  float: right;
+  
+}
+.ico-contact {
+
+}
+.meanous-andscoev {
+  float: right;
+  margin-bottom: 20px;
+}
+.aio-icon-title {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.aio-icon-description{
+	color: #deded1;
+	font-size: 12px;
+}
